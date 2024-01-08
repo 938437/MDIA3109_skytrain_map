@@ -12,8 +12,8 @@ This one page website uses Leaflet to create two interactive skystrain lines, ex
 - Leaflet
 
 ## Installation
-npx create-next-app@latest
+- npx create-next-app@latest
 
-npm install react react-dom leaflet
-npm install react-leaflet
-npm install -D @types/leaflet
+- npm install react react-dom leaflet
+- npm install react-leaflet
+- npm install -D @types/leaflet
