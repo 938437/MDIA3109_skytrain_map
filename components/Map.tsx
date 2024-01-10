@@ -2,7 +2,7 @@ import {MapContainer, TileLayer, Marker, Popup, Polyline, Circle, CircleMarker} 
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
 
-const icon = L.icon({ iconUrl: "/images/location.png"})
+const icon = L.icon({iconUrl: "/images/location.png", iconAnchor: [13, 24]})
 
 const millenniumPolyline:[number, number][] = [
     [49.26583, -123.07914],
@@ -78,7 +78,7 @@ const Map = () => {
     return(
         <MapContainer
             style={{height: "100vh"}}
-            center={[49.24966, -123.00934]} zoom={14} scrollWheelZoom={false}
+            center={[49.24966, -123.00934]} zoom={12} scrollWheelZoom={false}
         >
             <TileLayer
                 attribution='&copy; <a href="https://github.com/938437/MDIA3109_skytrain_map"> By Yanjun Liu</a> contributors'
